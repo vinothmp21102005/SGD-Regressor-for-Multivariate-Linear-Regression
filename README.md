@@ -46,7 +46,6 @@ x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42
 scal_x =StandardScaler()
 scal_y =StandardScaler()
 
-
 x_train=scal_x.fit_transform(x_train)
 x_test=scal_x.transform(x_test)
 
